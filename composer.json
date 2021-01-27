@@ -35,7 +35,8 @@
     "opencontent/ocgdprtools-ls": "1.*",
     "opencontent/openpa_bootstrapitalia-ls": "dev-master",
     "opencontent/occodicefiscale-ls": "dev-master",
-    "ezsystems/ezmbpaex-ls": "5.3.3.3"
+    "ezsystems/ezmbpaex-ls": "5.3.3.3",
+    "opencontent/openpa_bootstrapitalia_simpatico": "dev-master"
   },
   "repositories": [
     {
@@ -57,6 +58,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/Opencontent/ezmbpaex.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia_simpatico.git"
     }
   ],
   "extra": {

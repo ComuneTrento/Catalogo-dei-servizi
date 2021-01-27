@@ -1,2 +1,4 @@
 dfs/var/trentoservizipubblici/cache
+dfs/var/trentoservizipubblici/storage/classtools_class_backup/*
 html
+conf.d/solr/trentoservizipubblici/data/*

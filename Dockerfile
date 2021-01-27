@@ -109,7 +109,7 @@ RUN sed -i "s@^\[global\]@\[global\]\n\npid = /run/php-fpm.pid@" ${PHP_INI_DIR}-
 
 # Create Composer directory (cache and auth files) & Get Composer
 RUN mkdir -p $COMPOSER_HOME \
-    && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+    && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --1 --filename=composer
 
 # As application is put in as volume we do all needed operation on run
 COPY scripts /scripts

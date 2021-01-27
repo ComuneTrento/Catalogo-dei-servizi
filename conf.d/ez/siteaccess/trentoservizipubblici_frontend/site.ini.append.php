@@ -31,6 +31,7 @@ ActiveAccessExtensions[]=ocoperatorscollection
 ActiveAccessExtensions[]=ocbinarynullparser
 ActiveAccessExtensions[]=ocmultibinary
 ActiveAccessExtensions[]=ocgdprtools
+ActiveAccessExtensions[]=openpa_bootstrapitalia_simpatico
 
 [Session]
 SessionNamePerSiteAccess=disabled
@@ -43,8 +44,9 @@ RequireUserLogin=false
 ShowHiddenNodes=false
 
 [DesignSettings]
-SiteDesign=bootstrapitalia
+SiteDesign=simpatico
 AdditionalSiteDesignList[]
+AdditionalSiteDesignList[]=bootstrapitalia
 AdditionalSiteDesignList[]=ocbootstrap4
 AdditionalSiteDesignList[]=ocbootstrap
 AdditionalSiteDesignList[]=standard
